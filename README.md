@@ -23,7 +23,9 @@ The property `background-image` is not constrained to a single value. **CSS Mult
 **Source:** [Using Multiple Backgrounds in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds)
 
 ## Multiple Background Colors
-But, when it comes to `background-color`, **CSS Multiple Background Colors** isn't an option. Conventionally, background colors may not be combined.
+But, when it comes to `background-color`, **CSS Multiple Background Colors** aren't an option.
+
+Conventionally, background colors may not be combined.
 
 There is, however, a hack we can take advantage of, based on... *SVG Data URIs*.
 
