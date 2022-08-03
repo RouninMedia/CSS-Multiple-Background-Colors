@@ -39,7 +39,7 @@ Normally, we declare `background-color` values using the following syntax:
 
 These background colors may not be combined.
 
-However, using *SVG Data URI* syntax, we can reproduce the same background colors like this:
+However, using *SVG Data URI* syntax, we can reproduce *the same background colors* like this:
 
  - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 0, 0, 0.5);"%2F%3E`
  - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 127, 0, 0.5);"%2F%3E`
