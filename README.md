@@ -27,7 +27,7 @@ But, when it comes to `background-color`, **CSS Multiple Background Colors** are
 
 Conventionally, background colors may not be combined.
 
-There is, however, a hack we can take advantage of, based on... *SVG Data URIs*.
+There is, however, a hack we can take advantage of... based on *SVG Data URIs*.
 
 Normally, we declare `background-color` values using the following syntax:
 
@@ -41,11 +41,11 @@ These background colors may not be combined.
 
 However, using *SVG Data URI* syntax, we can reproduce the same background colors like this:
 
- - Translucent red: `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 0, 0, 0.5);"%2F%3E`
- - Translucent orange: `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 127, 0, 0.5);"%2F%3E`
- - Translucent yellow: `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 255, 0, 0.5);"%2F%3E`
- - Translucent green: `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(0, 127, 0, 0.5);"%2F%3E`
- - Translucent blue: `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(0, 0, 191, 0.5);"%2F%3E`
+ - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 0, 0, 0.5);"%2F%3E`
+ - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 127, 0, 0.5);"%2F%3E`
+ - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(255, 255, 0, 0.5);"%2F%3E`
+ - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(0, 127, 0, 0.5);"%2F%3E`
+ - `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" style="background-color:rgba(0, 0, 191, 0.5);"%2F%3E`
 
 
 
