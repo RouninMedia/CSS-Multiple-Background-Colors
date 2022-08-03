@@ -1,7 +1,7 @@
-# CSS-Multiple-Background-Colors
-A CSS hack which enables *CSS Multiple Background Colors* in the same way that we already have *CSS Multiple Background Images*.
+# CSS Multiple Background Colors
+*A CSS hack which enables **CSS Multiple Background Colors** in the same way that we already have **CSS Multiple Background Images**.*
 
-CSS backgrounds allow for both:
+CSS background properties allow for both:
 
  - Background Colors via the CSS property `background-color`
  - Background Images via the CSS property `background-image`
