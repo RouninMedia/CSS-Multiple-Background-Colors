@@ -61,3 +61,15 @@ And we *can* combine these colors, using the same **multiple background image** 
     url('data:image/svg+xml,%3Csvg%20xmlns="http://www.w3.org/2000/svg"%20style="background-color:rgba(0,0,191,0.5);"%2F%3E');
 }
 ```
+
+________
+
+## Related - Multiple borders
+
+Native CSS doesn't allow for multiple `border` styles, but it *does* allow for multiple `box-shadow` styles.
+
+And, visually, there's no apparent difference between what multiple `border` styles might look like and what multiple `box-shadow` styles, each with a `blur` value of `0`, actually do look like. (`blur` is the third value in a `box-shadow` declaration.)
+
+For an explanation of this technique, see:
+
+ - https://css-tricks.com/snippets/css/multiple-borders/
